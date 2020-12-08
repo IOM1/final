@@ -1,0 +1,213 @@
+a {
+  text-decoration: none;
+}
+.googleEarth {
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-image: url(../../img/GoogleEarth_background.jpg);
+}
+.googleEarth h1 {
+  text-align: center;
+}
+.googleEarth h2 {
+  font-size: 40px;
+  color: lightgreen;
+  text-align: center;
+}
+.googleEarth p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: gold;
+  text-align: center;
+}
+.btn {
+  top: 10px;
+  left: -40px;
+  width: 300px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 0 40px 50px;
+}
+.btn a {
+  font-family: arial;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 50px;
+  transition: all 0.5s ease;
+  z-index: 2;
+  position: relative;
+}
+.effect {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  transition: all 0.5s ease;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  color: whitesmoke;
+  width: 50%;
+}
+.googleEarth .btn {
+  margin-top: 10px;
+  border: 2px solid lightgreen;
+  left: 40%;
+}
+.googleEarth .btn a {
+  color: lightblue;
+}
+.googleEarth .effect {
+  border: 0px solid white;
+}
+.googleEarth .btn:hover .effect {
+  border: 70px solid lightblue;
+}
+.googleEarth .btn:hover a {
+  color: green;
+  font-weight: bold;
+}
+#googleEarth_img {
+  margin: 0 auto;
+  width: 1600px;
+  opacity: 0;
+}
+#googleEarth_img img {
+  width: 800px;
+}
+.box {
+  border: 3px solid aqua;
+  top: 400px;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  transition: all ease 1s;
+  margin-bottom: 10px;
+}
+.box:hover {
+  transform: rotate(45deg);
+}
+.box h3 {
+  margin: 25px;
+  color: lightcoral;
+}
+.youtube_VR {
+  background-color: darkred;
+  height: 1000px;
+  opacity: 1;
+}
+.youtube_VR div {
+  text-align: center;
+  width: 100%;
+}
+.youtube_VR div img {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.youtube_VR h1 {
+  font-size: 60px;
+  color: white;
+}
+.youtube_VR div div {
+  position: absolute;
+  top: 1100px;
+  min-width: 100px;
+}
+.youtube_VR div div li {
+  border: 5px solid blue;
+  margin-left: 220px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.youtube_VR div div li div {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+}
+.youtube_VR div div li div a {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.youtube_VR div div li:hover {
+  width: 150px;
+  height: 150px;
+}
+.youtube_VR div div li div:hover {
+  margin: 20%;
+}
+#video {
+  position: absolute;
+  top: 1200px;
+  left: 16%;
+  opacity: 0;
+  z-index: -2;
+}
+#cancel {
+  position: absolute;
+  top: 1065px;
+  left: 97.5%;
+  width: 35px;
+  height: 50px;
+  font-size: 40px;
+  padding-left: 10px;
+  border: 1px solid black;
+  opacity: 0;
+}
+.sport h1 {
+  font-size: 60px;
+  color: blue;
+  text-align: center;
+}
+.sport p {
+  margin-top: 15px;
+  font-size: 40px;
+  text-align: center;
+}
+.sport {
+  height: 1000px;
+  text-align: center;
+}
+.sport_img img {
+  width: 700px;
+  height: 400px;
+}
+#KBO {
+  position: absolute;
+  top: 2230px;
+  left: 15%;
+  font-size: 60px;
+  color: red;
+}
+.sport_img p {
+  position: absolute;
+  font-size: 20px;
+  top: 2250px;
+  left: 22%;
+}
+#MLB {
+  position: absolute;
+  top: 2540px;
+  left: 78%;
+  font-size: 60px;
+  color: skyblue;
+}
+#NBA {
+  position: absolute;
+  top: 2620px;
+  left: 47%;
+  font-size: 60px;
+  color: blueviolet;
+}
