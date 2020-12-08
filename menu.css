@@ -1,0 +1,162 @@
+ul, li { list-style:none; }
+#wrap{
+    width:100%; 
+    height:auto; 
+    float:left; 
+    min-width: 1000px;
+}
+#main_menu{
+    position: absolute; 
+    top: 15%;
+    left: 50%;
+    margin-left: -24%;
+    width: 50%; height:50px; float:left;
+    min-width: 600px;
+}
+.gnb{
+    padding:0;
+}
+.gnb a { 
+    display:block; 
+    text-decoration:none; 
+}
+.gnb li {
+    width: 19%;
+    position: relative;  
+    float: left; 
+    border: 2px solid #fff;
+    min-width: 100px;
+}
+.gnb li a {
+    height:50px; 
+    text-align:center; 
+    line-height:50px; 
+    font-size:1.05em;  
+    color:#000; 
+}
+.gnb  li  a:hover { 
+    color:#09f; 
+}
+.gnb  li  ul {
+    display:none; 
+    width: 520%; 
+    position: absolute;
+    top:50px;
+    left: -40px;
+    text-align: center;
+    z-index: 2;
+}
+.gnb  li:hover ul { 
+    display: flex;
+    flex-direction: column;
+
+}
+.gnb li ul a { 
+    width:100%; 
+    height:35px; 
+    text-align:center; 
+    line-height:37px; 
+    border-bottom:1px solid #fff; 
+}
+
+#home{
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    border-start-start-radius: 50%;
+    background-color: #FFFEAF;
+}
+#trend{
+    background-color:#FFE3EE; 
+}
+#music {
+    background-color:#FFB6C1;
+}
+#music:hover {
+    background-color:#FF1493;
+}
+#fashion {
+    background-color:#FF92B1;
+}
+#fashion:hover {
+    background-color:#FF1493;
+}
+#IT {
+    background-color:HotPink; 
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+#IT:hover {
+    background-color:#FF1493;
+}
+#VR {
+    background-color: #dcdcdc
+}
+#VR1  {
+    background-color:#bebebe;
+}
+#VR1:hover {
+    background-color:#282828;
+}
+#VR2  {
+    background-color:#828282;
+}
+#VR2:hover {
+    background-color:#282828;
+}
+#VR3  {
+    background-color:#464646;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+#VR3:hover {
+    background-color:#282828;
+}
+#math{
+    background-color: #FFDAB9;
+}
+#classvideo  {
+    background-color:#FFCA9B;
+}
+#classvideo:hover {
+    background-color:orangered;
+}
+#programm  {
+    background-color:	#FFA778;
+}
+#programm:hover {
+    background-color:orangered;
+}
+#shelter  {
+    background-color:#FF7F50;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+#shelter:hover {background-color:orangered;}
+#start {
+    border-bottom-right-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    background-color:#C8FAC8;
+}
+#start:hover{
+    border-bottom-right-radius: 0em;
+}
+#occ  {
+    background-color:#73EAA8;
+}
+#occ:hover {
+    background-color:#006400;
+}
+#another {
+    background-color:#3CB371;
+}
+#another:hover {
+    background-color:#006400;
+}
+#help  {
+    background-color:	#1E821E;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+#help:hover {
+    background-color:#006400;
+}

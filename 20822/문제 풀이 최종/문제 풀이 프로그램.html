@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../menu.css">
+    <style media="screen">
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background:#e6f2ff;
+      }
+      h1 {
+        text-align: center;
+      }
+      .header {
+        width: 100%;
+        height: 10%;
+        background: #e6f2ff;
+      }
+      #menu {
+        width: 100%;
+        height: 10%;
+        background: #e6f2ff;
+      }
+      .nav {
+        width: 10%;
+        height: 200%;
+        float: left;
+        background-image: url(테마파크1.jpg);
+        background-size:400px 1900px;
+        background-color: #ffffff;
+        opacity: 0.7;
+      }
+      .section {
+        float: left;
+        width: 80%;
+        height: 200%;
+        float: left;
+        background-image: url(테마파크.jpg);
+        background-size:1600px 1900px;
+
+      }
+      .aside {
+        float: left;
+        width: 10%;
+        height: 200%;
+        background-image: url(테마파크1.jpg);
+        background-size:200px 1900px;
+        background-color: #ffffff;
+        opacity: 0.7;
+      }
+
+      .footer {
+
+      }
+
+      h2 {
+        font-family: 'Do Hyeon',sans-serif;
+        color:#ff4da6;
+        text-align: center;
+        font-size: 35px;
+        letter-spacing: 10px;
+      }
+      p.solid {
+        outline-style: solid;
+        outline-color:#ff4da6;
+        width:1300px;
+        height:40px;
+        text-align: center;
+        margin-left: auto; margin-right: auto;
+        font-family: 'Do Hyeon', sans-serif;
+        color: #ff4da6;
+        font-size: 25px;
+        margin-top: 5%;
+     }
+
+
+     p.solid3{
+       margin-left: auto; margin-right: auto;
+       font-family: 'Do Hyeon', sans-serif;
+       color: #ff4da6;
+       font-size: 25px;
+       padding-left: 120px;
+       margin-top: 3%;
+     }  /* 하얀색 선 없는 상자 */
+
+     p.solid3-1{
+       margin-left: auto; margin-right: auto;
+       font-family: 'Do Hyeon', sans-serif;
+       color: #ff4da6;
+       font-size: 40px;
+       padding-left: 120px;
+       margin-top: 3%;
+       text-align: center;
+     }  /* 하얀색 선 없는 상자 */
+
+     p.solid4{
+       outline-style: solid;
+       outline-color:#ff4da6;
+       width:1300px;
+       height:0px;
+       text-align: center;
+       margin-left: auto; margin-right: auto;
+     }    /* 하얀색 줄 */
+
+
+     .line {
+       border-bottom:1px solid #b0e0e6;
+       box-shadow: inset 0 -5px 0 #b0e0e6;
+     }   /* 밑줄긋기 */
+
+     .half_HL {background: linear-gradient(to top, #FFE400 5%, transparent 80%);}
+       /* 중간만 형광펜 칠하기 */
+
+     .half_HR {background: linear-gradient(to top, red 5%, transparent 80%);}
+         /* 중간만 형광펜 칠하기 */
+
+     .red {
+       border-bottom:5px solid #FFE400;
+     }
+     .page {
+       width: 100vw;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+     }
+
+
+     .color-bg-start {
+       background-color: salmon;
+     }
+
+
+     .bg-animate-color {
+       animation: random-bg .5s linear infinite;
+     }
+
+
+
+     @keyframes random-bg {
+        from {
+         filter: hue-rotate(0);
+        }
+        to {
+        filter: hue-rotate(360deg);
+        }
+    }
+
+      .fun-btn {
+
+        background-color: salmon;
+        position: absolute;
+        left: 870px;
+        top: 1000px;
+        color: white;
+        font-size: 15px;
+        padding: 4em 6em;
+        border: none;
+        transition: all .30s ease;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        outline: none;
+        align-self: center;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+      .fun-btn:hover {
+          animation: random-bg .5s linear infinite, grow 1300ms ease infinite;
+    }
+
+      .start-fun {
+          background-color: #fff !important;
+          color: salmon !important;
+    }
+
+      @keyframes grow {
+        0% {
+          transform: scale(1);
+           }
+       14% {
+          transform: scale(1.3);
+           }
+       28% {
+          transform: scale(1);
+           }
+      42% {
+          transform: scale(1.3);
+          }
+      70% {
+          transform: scale(1);
+          }
+          }
+
+
+    </style>
+  </head>
+  <body>
+    <header class="header">
+        <h1>제목</h1>
+    </header>
+    <ul id="menu">
+        <div id="wrap">
+          <div id="main_menu">
+            <ul class="gnb">
+              <li id="home"><a href="../../index.html" title="홈">홈</a></li>
+              <li id="trend"><a href="../../20818/music.html" title="트렌드">트렌드</a>
+                <ul>
+                  <li id="music"><a href="../../20818/music.html" title="music">음악 </a></li>
+                  <li id="fashion"><a href="../../20818/fashion.html" title="fashion">패10</a></li>
+                  <li id="IT"><a href="../../20818/IT.html" title="IT">IT</a></li>
+                </ul>
+              </li>
+              <li id="VR"><a href="../../20821/html/mainActivity.html" title="가상현실">가상현실</a>
+                <ul>
+                  <li id="VR1"><a href="../../20821/html/mainActivity.html#info" title="가상현실의 정의">가상현실이란?</a></li>
+                <li id="VR2"><a href="../../20821/html/mainActivity.html#platform" title="가상현실의미래">미래</a></li>
+                <li id="VR3"><a href="../../20821/html/mainActivity.html#product" title="여러제품">여러 제품 </a></li>
+                </ul>
+              </li>
+              <li id="math"><a href="../수업 영상 최종/수업영상 2차 수정.html" title="수학교육">수학 교육</a>
+                <ul>
+                  <li id="classvideo"><a href="../수업 영상 최종/수업영상 2차 수정.html" title="수업영상">수업 영상</a></li>
+                  <li id="programm"><a href="../문제 풀이 최종/문제 풀이 프로그램.html" title="문제풀이">문제풀이</a></li>
+                  <li id="shelter"><a href="../배움 쉼터 최종/배움 쉼터.html" title="배움쉼터">배움쉼터</a></li>
+                </ul>
+              </li>
+              <li id="start"><a href="스타트업">스타트업</a>
+                <ul>
+                  <li id="occ"><a href="" title="취업거래소">취업 거래소</a></li>
+                  <li id="another"><a href="" title="문제풀이 프로그램">타 스타트업</a></li>
+                  <li id="help"><a href="" title="문제풀이 프로그램">대기업지원</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </ul>
+    <nav class="nav"></nav>
+    <section class="section">
+      <h2>문제풀이 프로그램</h2>
+      <p class="solid">
+        Ⅰ  Math 테마파크
+      </p> <br>
+
+        <p class="solid4"></p>
+        <p class="solid3">
+          <span class="half_HL"> <b>간단 연산 파크, 수학 실력 검증 파크, 던저라~! 주사위! 파크.</b> </span> 총 3개의 테마로 구성된 세계 최초 온라인 테마파크임 <br> <br>
+          간단 연산 파크에는 <span class="line"> <b>사칙 연산 놀이기구, 도형 놀이기구, 함수 놀이기구</b> </span>가 있으며 놀이기구를 통해 점수를 얻을 수 있음 <br> <br>
+          수학 실력 검증 파크는 점수판을 통해 자신의 총 점수를 확인하여 자신의 수학 실력을 확인할 수 있도록 해줌 <br> <br>
+          던져라~! 주사위!파크는 컴퓨터와 4번의 <span class="red"> <b>주사위 게임</b> </span>을 통해 점수가 높으면 점수가 더블이 되는 이벤트가 있음
+        </p>
+        <p class="solid4"></p>
+
+        <p class="solid3-1">
+          그럼 입장 버튼을 클릭해주세요
+        </p>
+
+        <div class="page">
+          <button class="fun-btn">입장</button>
+       </div>
+
+    </section>
+    <aside class="aside"></aside>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+.smartphone {
+  background-attachment: fixed;
+}
+.smartphone img {
+  width: 100%;
+  height: 1000px;
+  background-attachment: fixed;
+}
+.smartphone h1 {
+  position: absolute;
+  top: 100px;
+  left: 2%;
+  font-size: 60px;
+  color: white;
+}
+.smartphone p {
+  position: absolute;
+  top: 190px;
+  left: 4%;
+  font-size: 40px;
+  color: whitesmoke;
+}
+.smartphone .btn {
+  border: 1px solid white;
+}
+.smartphone .btn01 {
+  position: absolute;
+  top: 275px;
+  left: 2%;
+  border: 1px solid white;
+}
+.smartphone .btn02 {
+  position: absolute;
+  top: 350px;
+  left: 5%;
+  border: 1px solid white;
+}
+.smartphone .btn03 {
+  position: absolute;
+  top: 425px;
+  left: 5%;
+  border: 1px solid white;
+}
+.smartphone .btn04 {
+  position: absolute;
+  top: 500px;
+  left: 5%;
+  border: 1px solid white;
+}
+.smartphone .btn a {
+  color: white;
+}
+.smartphone .effect {
+  border: 0px solid;
+}
+.smartphone .btn:hover .effect {
+  border: 90px solid white;
+}
+.smartphone .btn:hover a {
+  color: black;
+}
+.btn {
+  top: 10px;
+  left: -40px;
+  width: 180px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 0 40px 50px;
+}
+.btn a {
+  font-family: arial;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 50px;
+  transition: all 0.5s ease;
+  z-index: 2;
+  position: relative;
+}
+.effect {
+  width: 140px;
+  height: 50px;
+  position: absolute;
+  transition: all 0.5s ease;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  color: whitesmoke;
+  width: 50%;
+}
+.independent {
+  background-image: url(../../img/independent.jpg);
+  height: 1000px;
+}
+.independent div h1 {
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 60px;
+}
+.independent div h3 {
+  margin-left: 50px;
+  font-size: 30px;
+  color: mediumaquamarine;
+}
+.independent p {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.independent .btn05{
+  margin-left: 60px;
+  border: 1px solid white;
+}
+.independent .btn05:hover{
+  background-color: black;
+}
+.independent .btn05 a{
+  color: black;
+}
+.independent .btn05 a:hover{
+  color: white;
+}
+.cardboard{
+  background-repeat: no-repeat;
+  background-image: url(../../img/cardboard.jpg);
+  background-size: 100% 1000px;
+  height: 1000px;
+}
+.cardboard div{
+  width: 100%;
+  text-align: center;
+}
+.cardboard div h1{
+  margin: 0 auto;
+  font-size: 60px;
+}

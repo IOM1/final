@@ -1,0 +1,116 @@
+section {
+  height: auto;
+  min-width: 1000px;
+}
+.video {
+  position: relative;
+  text-align: centers;
+  width: 100%;
+  height: 20%;
+  top: -33px;
+}
+.video_text {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 1000px;
+}
+.video_text h1 {
+  color: white;
+  font-size: 100px;
+}
+.video_text h6 {
+  color: white;
+  font-size: 50px;
+}
+iframe{
+  position: absolute;
+  top: 110px;
+  left: 16%;
+  opacity: 0;
+  z-index: -2;
+}
+.VR02 .VR_img {
+  top: -40px;
+  left: -2.1%;
+  width: 100%;
+}
+.btn {
+  top: 10px;
+  left: -40px;
+  width: 140px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 0 40px 50px;
+}
+.btn a {
+  font-family: arial;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 50px;
+  transition: all 0.5s ease;
+  z-index: 2;
+  position: relative;
+}
+.effect {
+  width: 140px;
+  height: 50px;
+  position: absolute;
+  transition: all 0.5s ease;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  color: whitesmoke;
+  width: 50%;
+}
+h3 {
+  font-size: 60px;
+}
+p {
+  font-size: 30px;
+}
+.text .btn {
+  border: 2px solid white;
+}
+.text .btn a {
+  color: white;
+}
+.text .effect {
+  border: 0px solid lightcyan;
+}
+.text .btn:hover .effect {
+  border: 70px solid lightcyan;
+}
+.text .btn:hover a {
+  color: #000;
+}
+.product_text {
+  position: absolute;
+  top: 10%;
+  left: 57%;
+  color: aquamarine;
+}
+.product_text .btn {
+  border: 2px solid black;
+}
+.product_text .btn a {
+  color: black;
+}
+.product_text .effect {
+  border: 0px solid black;
+}
+.product_text .btn:hover a {
+  color: whitesmoke;
+}
+.product_text .btn:hover .effect {
+  border: 70px solid black;
+}

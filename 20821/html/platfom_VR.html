@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+	<link rel="stylesheet" href="../css/VR/header.css">
+	<link rel="stylesheet" href="../css/platform_VR/section.css">
+	<script>
+		window.onload = function() { 
+			var box = document.getElementById('box');
+			var img = document.getElementById('googleEarth_img');
+			box.onclick = function () {
+				if (img.style.opacity == "0"){
+					img.style.opacity = "1";
+				}
+				else{
+					img.style.opacity = "0";
+				}
+			}
+			var video = document.getElementById('video');
+			var cancel = document.getElementById('cancel');
+			var background = document.getElementById('youtube_VR');
+			document.getElementById('prolog').onclick = function () {
+        if(video.style.opacity == 0){
+        	video.style.opacity = 1;
+					video.style.zIndex = 2;
+					cancel.style.opacity = 1;
+					background.style.opacity = 0.5;
+        }
+			}
+
+			cancel.onclick= function () {
+				if (video.style.opacity == 1){
+					video.style.opacity = 0;
+					video.style.zIndex = -2;
+					cancel.style.opacity = 0;
+					background.style.opacity = 1;
+				}
+			}
+		};
+	</script>
+</head>
+<body>
+  <header class="header">
+    <ul>
+      <li>
+        <h1><a href="VR.html">VR_AR</a><h6>produce by.jml</h6>
+      </li>
+      <li>
+        <div id="main_menu">
+        	<ul class="gnb">
+						<li id="platforms"><h1>|| platforms</h1>
+							<li><a href="#googleEarth">googleEarth</a></li>
+							<li><a href="#youtube_VR">youtube</a></li>
+							<li><a href="#sport">sport</a></li>
+						</li>
+						<li id="product"><a href="./product_VR.html">product</a>
+							<ul>
+								<li>
+									<ul>
+										<li><a href="">smartphone VR</a></li>
+										<li><a href="">independent VR</a></li>
+										<li><a href="">cardboard</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+            <li class="AR"><a href="">Argumente Reality</a>
+              <ul>
+                <li><a href="">platforms</a>
+                  <ul>
+										<li><a href="">pokemon go</a></li>
+										<li><-------------------></li>
+										<li><-------------------></li>
+                  </ul>
+                </li>
+                  <li><a href="">product</a>
+                	<ul>
+										<li><a href="">googleLense</a></li>
+										<li><-------------------></li>
+										<li><-------------------></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+	</header>
+	<section class="section">
+		<div class="googleEarth"  id="googleEarth">
+			<h1><img src="../img/googleEarth_logo.png" alt=""></h1> <br>
+			<h2>Go anywhere</h2>
+			<p>
+				Google Earth VR puts the whole world within your reach. 
+				Take a peek at some of the incredible sights 
+				you'll experience along the way in the preview gallery below.<br>
+				Google Earth VR은 전세계를 당신의 손안에 넣을 수 있습니다.
+				아래 미리보기로 여러분을 놀라운 광경으로 이끌겠습니다.
+			</p> 
+			<div class="box" id="box">
+				<h3>cleck here!</h3>
+			</div>
+			<div class="googleEarth02">
+				<div id="googleEarth_img">
+					<li>
+						<img src="../img/googleEarth.gif" alt="">
+					</li>
+					<li>
+						<img src="../img/googleEarth2.gif" alt="">
+					</li>
+				</div>
+			</div>
+			<div class="btn">
+				<div class="effect"></div>
+				<a href="https://arvr.google.com/earth/">go to; Google Earth VR</a>
+			</div>
+		</div>
+		<div class="youtube_VR"  id="youtube_VR">
+			<div>
+				<img src="../img/yotubeVR_logo.svg" alt="">
+				<h1>VR의 시대가 오고 있습니다.</h1>
+				<h1>흐름에 동참하세요</h1>
+				<div>
+					<li class="box">
+						<div>
+							<a href="https://www.youtube.com/channel/UCzuqhhs6NWbgTzMuM09WKDQ">어디서?</a>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<a href="https://vr.youtube.com/intl/ko/watch/">어떻게?</a>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<a href="https://vr.youtube.com/intl/ko/">소개</a>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<a href="https://vr.youtube.com/intl/ko/create/">만드는 법</a>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<a  id="prolog">프롤로그</a>
+						</div>
+					</li>
+				</div>
+			</div>
+		</div>
+		<div id="video">
+			<iframe 
+			width="1278" height="719" 
+			src="https://www.youtube.com/embed/8Kq417NwCgg" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+		</div>
+		<div id="cancel">
+			X
+		</div>
+		<div class="sport" id="sport"	>
+			<h1>sports</h1>
+			<p>their is KBO, MLB, NBA that we can watch with VR</p>
+			<div class="sport_img">
+				<img src="../img/KBO.png" alt="">
+				<a id="KBO" href="">KBO</a>
+				<p>not yet</p>
+				<img src="../img/MLB.jpg" alt="">
+				<a id="MLB" href="https://www.oculus.com/experiences/quest/2873640696088444/?locale=en_US">MLB</a>
+				<img src="../img/NBA.jpg" alt="">
+				<a id="NBA" href="https://www.nba.com/vr">NBA</a>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
